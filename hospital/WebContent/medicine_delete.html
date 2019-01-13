@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hospital Management System</title>
+<link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+    	<div id="header"><h1>Hospital Management System</h1></div>
+        <div id="link" >
+        <ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="patient.html">Patient</a></li>
+            <li><a href="docter.html">Docter</a></li>
+            <li><a href="appointment.html">Appointment</a></li>
+            <li><a href="medicine.html">Medicine</a></li>
+        </ul>
+    	</div>
+    </div>
+    
+    <div id="wrapper">
+    	<h2 align="center">REMOVE MEDICINE DETAILS</h2>
+    	<a href="login.jsp"><h3 align="right">LOGOUT</h3></a>
+    </div>
+    
+    <div align="center" style="color:white">
+<form action="medicine_delete" method="post" id="header">
+Enter MEDICINE ID to Delete:<input type="text" name="id" required>
+<button>SUBMIT</button>
+</form>
+
+</div>
+    
+</body>
+</html>
+
+<style>
+   #link  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+</style>

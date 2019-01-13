@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0}
+
+#wrapper {border:2px solid blue;
+		  margin:5px;
+		  padding:5px
+}
+#header {border:1px solid grey;
+		 margin:5px;
+		 padding:5px;
+		 height:100px;
+		 background-color:#000
+}
+h1 {font-size:66px;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:blue
+}
+#login_form {	background-color:#100;
+				width:200px;				
+}
+
